@@ -1,4 +1,3 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 // ===== estado =====
 window.amigos = [];
 
@@ -52,6 +51,7 @@ window.sortearAmigo = function () {
 // Enter para agregar
 document.addEventListener('DOMContentLoaded', () => {
   const input = document.getElementById('amigo');
-  if (input) input.addEventListener('keydown', (ev) => { if (ev.key === 'Enter') window.agregarAmigo(); });
+  if (input) input.addEventListener('keydown', (ev) => {
+    if (ev.key === 'Enter') window.agregarAmigo();
+  });
 });
-
